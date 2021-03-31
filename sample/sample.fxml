@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Pane prefHeight="205.0" prefWidth="403.0">
+         <children>
+            <Button fx:id="buttonTo" layoutX="168.0" layoutY="24.0" mnemonicParsing="false" onAction="#CLCKBUTTON2" prefHeight="26.0" prefWidth="68.0" text="Button2" />
+            <Button fx:id="buttonOnE" layoutX="51.0" layoutY="25.0" mnemonicParsing="false" onAction="#CLCKBUTTON1" prefHeight="26.0" prefWidth="68.0" text="Button1" />
+            <Button fx:id="buttonThr" layoutX="285.0" layoutY="24.0" mnemonicParsing="false" onAction="#CLCKBUTTON3" prefHeight="26.0" prefWidth="68.0" text="Button3" />
+            <Label fx:id="LlForButtons" alignment="CENTER" contentDisplay="CENTER" layoutX="74.0" layoutY="84.0" prefHeight="70.0" prefWidth="256.0" text="Click the Button" textAlignment="JUSTIFY" />
+         </children></Pane>
+   </children>
+</GridPane>
